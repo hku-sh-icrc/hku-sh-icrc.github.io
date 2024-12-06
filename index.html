@@ -1,0 +1,196 @@
+<head>
+    <title>xx</title>
+
+    <!-- <link rel="icon" type="image/png" href="/assets/icon/D_small.png"> -->
+
+    <link href="/ui2024/css/header.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/ui2024/css/footer.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/ui2024/css/format.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/ui2024/css/font.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/ui2024/css/home.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="/ui2024/css/swiper.css" rel="stylesheet" type="text/css" media="all"/>
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="/ui2024/css/swiper-bundle.min.css"/>
+    <script src="/ui2024/js/swiper-bundle.min.js"></script>
+
+    <script src="/ui2024/js/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+
+
+<script>
+    $.get("/ui2024/components/header.html",function(result){
+        $("body").prepend(result)
+    })
+    $.get("/ui2024/components/footer.html",function(result){
+        $("body").append(result)
+    })
+</script>
+
+
+
+<body>
+
+    
+
+    <div class="banner">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <!-- slide -->
+                <div class="swiper-slide" style="background-image: url(/assets/background/2024-10-0618.18.51.jpg); background-position-y: 30%;">
+                    <div class="banner_container">
+                        <div class="banner_container_title Owhite text_shadow">
+                            <h1>Closed-Loop Visuomotor Control with Generative Expectation for Robotic Manipulation</h1>
+                        </div>
+                        <br>
+                        <div class="banner_container_subtitle Owhite text_shadow">
+                            <h4><div class="tag Odarkblue">NeurIPS 2024</div>​CLOVER: A closed-loop visuomotor control framework that incorporates feedback mechanisms to improve adaptive robotic control.</h4>
+                        </div>
+                        <div class="banner_container_button Owhite">
+                            <p>
+                                <b>
+                                    <a target="_blank" href="https://github.com/OpenDriveLab/CLOVER">GitHub</a> 
+                                    <span>&nbsp; | &nbsp;</span>
+                                    <a target="_blank" href="https://arxiv.org/abs/2409.09016">Paper</a>
+                                </b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- slide --> 
+                <div class="swiper-slide vista_moblie" style="background-image: url(assets/background/time.jpg); background-color: rgb(33, 33, 33, 0.4);">
+                    <div class="banner_container">
+                        <div class="banner_container_title Owhite text_shadow">
+                            <h1>Vista: A Generalizable Driving World Model with High Fidelity and Versatile Controllability</h1>
+                        </div>
+                        <br>
+                        <div class="banner_container_subtitle Owhite text_shadow">
+                            <h4><div class="tag Odarkblue">NeurIPS 2024</div>A generalizable driving world model with high-fidelity open-world prediction, continuous long-horizon rollout, and zero-shot action controllability.</h4>
+                        </div>
+                        <div class="banner_container_button Owhite">
+                            <p>
+                                <b>
+                                    <a target="_blank" href="https://vista-demo.github.io/">Demo</a>
+                                    <span>&nbsp; | &nbsp;</span>
+                                    <a target="_blank" href="https://github.com/OpenDriveLab/Vista">GitHub</a>
+                                    <span>&nbsp; | &nbsp;</span>
+                                    <a target="_blank" href="https://github.com/OpenDriveLab/DriveAGI/tree/main/opendv">Dataset</a>
+                                    <span>&nbsp; | &nbsp;</span>
+                                    <a target="_blank" href="https://huggingface.co/OpenDriveLab/Vista">Hugging Face</a>
+                                    <span>&nbsp; | &nbsp;</span>
+                                    <a target="_blank" href="https://arxiv.org/abs/2405.17398">Paper</a>
+                                    <span>&nbsp; | &nbsp;</span>
+                                    <a target="_blank" href="https://medium.com/@opendrivelab/towards-next-level-of-autonomous-driving-via-world-models-aff0eb7fee00">Blog</a>
+                                </b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- slide -->
+                <div class="swiper-slide" style="background-image: url(/assets/background/b96a27798b0c5a0fe630600b8b655b0c.jpg);">
+                    <div class="banner_container">
+                        <div class="banner_container_title Owhite text_shadow">
+                            <h1>Reasoning Multi-Agent Behavioral Topology for Interactive Autonomous Driving</h1>
+                        </div>
+                        <br>
+                        <div class="banner_container_subtitle Owhite text_shadow">
+                            <h4><div class="tag Odarkblue">NeurIPS 2024</div>BeTop: A multi-agent behavior formulation for interactive motion prediction and planning.</h4>
+                        </div>
+                        <div class="banner_container_button Owhite">
+                            <p>
+                                <b>
+                                    <a target="_blank" href="https://github.com/OpenDriveLab/BeTop">GitHub</a> 
+                                    <span>&nbsp; | &nbsp;</span>
+                                    <a target="_blank" href="https://arxiv.org/abs/2409.18031">Paper</a>
+                                </b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- slide -->
+                <div class="swiper-slide" style="background-image: url(assets/background/cd0d184b033748b5b5cc8a43c3b9ddc8.jpeg);">
+                    <div class="banner_container">
+                        <div class="banner_container_title Owhite text_shadow">
+                            <h1>DriveLM: Driving with Graph Visual Question Answering</h1>
+                        </div>
+                        <br>
+                        <div class="banner_container_subtitle Owhite text_shadow">
+                            <h4><div class="tag Odarkblue">ECCV 2024 Oral</div>Unlocking the future where autonomous driving meets the unlimited potential of language.</h4>
+                        </div>
+                        <div class="banner_container_button Owhite">
+                            <p>
+                                <b>
+                                    <a target="_blank" href="https://github.com/OpenDriveLab/DriveLM">GitHub</a>
+                                    <span>&nbsp; | &nbsp;</span>
+                                    <a target="_blank" href="https://github.com/OpenDriveLab/DriveLM">Dataset</a>
+                                    <span>&nbsp; | &nbsp;</span>
+                                    <a target="_blank" href="/DriveLM/">Page</a>
+                                    <span>&nbsp; | &nbsp;</span>
+                                    <a target="_blank" href="https://huggingface.co/datasets/OpenDriveLab/DriveLM">Hugging Face</a>
+                                    <span>&nbsp; | &nbsp;</span>
+                                    <a target="_blank" href="https://arxiv.org/abs/2312.14150">Paper</a>
+                                </b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- slide -->
+                <div class="swiper-slide uniad_mobile" style="background-image: url(/assets/background/890e373a8bca0b4f0df9701fa09cf131.png);">
+                    <div class="banner_container">
+                        <div class="banner_container_title Owhite text_shadow">
+                            <h1>Planning-oriented Autonomous Driving</h1>
+                        </div>
+                        <br>
+                        <div class="banner_container_subtitle Owhite text_shadow">
+                            <h4><div class="tag Odarkblue">CVPR 2023 Best Paper Award</div>UniAD: The first comprehensive framework that incorporates full-stack driving tasks.</h4>
+                        </div>
+                        <div class="banner_container_button Owhite">
+                            <p>
+                                <b>
+                                    <a target="_blank" href="https://github.com/OpenDriveLab/UniAD">GitHub</a>
+                                    <span>&nbsp; | &nbsp;</span>
+                                    <a target="_blank" href="https://openaccess.thecvf.com/content/CVPR2023/html/Hu_Planning-Oriented_Autonomous_Driving_CVPR_2023_paper.html">Paper</a>
+                                    <span>&nbsp; | &nbsp;</span>
+                                    <a target="_blank" href="https://www.youtube.com/watch?v=cyrxJJ_nnaQ">Video</a>
+                                    <span>&nbsp; | &nbsp;</span>
+                                    <a target="_blank" href="/e2ead/UniAD_plenary_talk_slides.pdf">Slides</a>
+                                </b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+
+
+</body>
+
+
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 3,
+        centeredSlides: true,
+        autoplay: {
+            delay: 3333,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+</script>
