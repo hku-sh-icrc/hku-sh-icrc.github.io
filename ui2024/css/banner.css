@@ -1,11 +1,11 @@
 .banner {
     width: 100%;
     height: max(27vh, 300px);
-    background-image: url(/assets/background/2024.10.png);
+    background-image: url(/assets/background/1.jpg);
     background-size: cover; 
-    background-position: top;
-    background-blend-mode: overlay;
-    background-color: rgb(33, 33, 33, .2);
+    background-position: 80%;
+    background-blend-mode: multiply;
+    background-color: #25520d;
     @media screen and (max-width: 1024px) {
         height: 23vh;
     }
