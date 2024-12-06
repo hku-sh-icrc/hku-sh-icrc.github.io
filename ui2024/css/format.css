@@ -93,7 +93,7 @@ a:hover .link_img {
 
 
 
-.block_left div .person_two_column {
+/* .block_left div .person_two_column {
     display: grid;
     grid-template-columns: repeat(auto-fill, 45%);
     justify-content: space-between;
@@ -127,7 +127,7 @@ a:hover .link_img {
     .block_left div .person_container, .block_left div .person_two_column div .person_container {
         grid-template-columns: repeat(auto-fill, 45%);
     }
-}
+} */
 
 
 
