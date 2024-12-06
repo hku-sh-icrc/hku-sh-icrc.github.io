@@ -117,9 +117,9 @@ a:hover .link_img {
     margin-bottom: 7px;
     text-align: left;
 }
-.block_left div .person_container div div, .block_left div .person_two_column div .person_container div div {
+/* .block_left div .person_container div div, .block_left div .person_two_column div .person_container div div {
     border-bottom: 3px solid rgb(233, 233, 233);
-}
+} */
 @media screen and (max-width: 1024px) {
     .block_left div .person_two_column {
         grid-template-columns: repeat(auto-fill, 100%);
