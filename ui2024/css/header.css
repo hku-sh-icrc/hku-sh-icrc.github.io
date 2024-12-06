@@ -28,7 +28,7 @@ html {
     z-index: 1000;
 }
 header.white {
-    background-color: white;
+    background-color: #25520d;
 }
 
 
@@ -131,7 +131,7 @@ header.white {
                 padding: 22px 6% 44px 6%;
                 margin: -1px 0;
                 display: flex;
-                background-color: rgb(255, 255, 255);
+                background-color: #25520d;
                 justify-content: left;
                 align-items: center;
                 flex-direction: column;
@@ -159,19 +159,16 @@ header.white {
 
 
 .nav_scoll {
-    background-color: white;
-    box-shadow: 0 0 11px rgb(233, 233, 233);
-    & .header_right ul li a {
-        color: rgb(33, 33, 33);
-    }
+    background-color: #25520d;
+    box-shadow: 0 0 11px #25520d;
     & .dropdown {
-        background-color: white;
+        background-color: #25520d;
     }
 }
 
 
 
 .header_right li a:hover{
-    color: #00a0e8 !important;
+    color: #b5a774 !important;
     opacity: 1 !important;
 }
