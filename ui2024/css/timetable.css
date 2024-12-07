@@ -1,0 +1,81 @@
+.timetable_select {
+    flex-direction: row !important;
+    justify-content: left;
+    align-items: center;
+    @media screen and (max-width: 1024px) {
+        justify-content: space-between;
+    }
+}
+.timetable_select select {
+    margin-left: 11px;
+    padding: 7px;
+    border: 0;
+    border-radius: 11px;
+    background-color: rgb(233, 233, 233);
+    width: 192px;
+    @media screen and (max-width: 1024px) {
+        width: 50%;
+        height: 5vw;
+        border-radius: 5vw;
+        padding-left: 2vw;
+    }
+}
+
+
+
+.timetable_table table {
+    border-collapse: collapse;
+    border-bottom: 3px solid rgb(233, 233, 233);
+}
+.timetable_table table thead {
+    background-color: #25520d;
+}
+.timetable_table table tbody tr {
+    &:nth-child(2n) {
+        background-color: rgba(181, 167, 116, .3);
+    }
+}
+.timetable_table table thead tr th, .timetable_table table tbody tr td {
+    text-align: left;
+    padding: 11px;
+    &:nth-child(1) {
+        text-wrap: nowrap;
+        width: 20%;
+    }
+    &:nth-child(2) {
+        text-align: right;
+        width: 22px;
+        padding: 0;
+        margin: 0;
+        & img {
+            width: 33px;
+        }
+    }
+    &:nth-child(3) {
+        width: 50%;
+    }
+    &:nth-child(5) img {
+        height: 27px;
+        @media screen and (max-width: 1024px) {
+            height: 49px;
+        }
+    }
+    &:nth-child(6) {
+        display: none;
+    }
+}
+
+
+
+.timetable_table {
+    & ul {
+        margin: 0;
+        padding-inline-start: 20px;
+    }
+    & .poll {
+        height: 99px;
+        @media screen and (max-width: 1024px) {
+            height: 200px;
+        }
+    }
+}
