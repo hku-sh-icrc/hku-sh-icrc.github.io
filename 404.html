@@ -12,6 +12,9 @@
 
 <script>
     switch (new URL(document.URL).pathname) {
+        case "/project": 
+            window.location = "/research/";
+            break
         default:
             window.location = "/";
     };

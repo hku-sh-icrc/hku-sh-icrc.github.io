@@ -5,5 +5,5 @@
 
 ## projec template
 ```
-project/index.html 中搜索 template 並複製與修改
+research/index.html 中搜索 template 並複製與修改
 ```
