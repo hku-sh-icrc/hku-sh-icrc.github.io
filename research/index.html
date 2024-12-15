@@ -73,6 +73,110 @@
     <br><br><br>
 
 
+<!-- ########## White-Box ########## -->
+
+<div style="padding-left: 15%; padding-right: 15%;">
+    <strong style="color: black; font-size: 2.5vw;">White-Box Transformers via Sparse Rate Reduction</strong>
+    <table width="100%" cellspacing='0'>
+        <tbody>
+            <tr style="width: 100%;">
+                <td width="80%">
+                    <div>
+                        <img src="./files/white-box/1.png" width="100%">
+                        <!-- <h2>Image / Video 1, see RoboTwin.</h2> -->
+                    </div>
+                </td>                
+            </tr>   
+        </tbody>
+    </table>
+    <div style="height: 20px;"></div>
+    <strong style="color: black; font-size: 1.5vw;">Yaodong Yu, Sam Buchanan, Druv Pai, Tianzhe Chu, Ziyang Wu, Shengbang Tong, Benjamin D. Haeffele, Yi Ma</strong> 
+    <div style="height: 20px;"></div>
+    <strong style="color: black; font-size: 1.5vw;"><i>Conference on Neural Information Processing Systems (NeurIPS 2023)</i></strong>
+    <div style="height: 20px;"></div>
+    <strong style="color: black; font-size: 1.5vw;"><a href="https://arxiv.org/abs/2306.01129" target="_blank" style="color: blue;">Paper</a> / <a href="https://arxiv.org/abs/2306.01129" target="_blank" style="color: blue;">arXiv</a> / <a href="https://github.com/Ma-Lab-Berkeley/CRATE" target="_blank" style="color: blue;">Code</a></strong>
+    <div style="height: 20px;"></div>
+    <strong style="color: gray; font-size: 1.2vw;">In this paper, we contend that the objective of representation learning is to compress and transform the distribution of the data, say sets of tokens, towards a mixture of low-dimensional Gaussian distributions supported on incoherent subspaces. The quality of the final representation can be measured by a unified objective function called sparse rate reduction. From this perspective, popular deep networks such as transformers can be naturally viewed as realizing iterative schemes to optimize this objective incrementally. Particularly, we show that the standard transformer block can be derived from alternating optimization on complementary parts of this objective: the multi-head self-attention operator can be viewed as a gradient descent step to compress the token sets by minimizing their lossy coding rate, and the subsequent multi-layer perceptron can be viewed as attempting to sparsify the representation of the tokens. This leads to a family of white-box transformer-like deep network architectures which are mathematically fully interpretable. Despite their simplicity, experiments show that these networks indeed learn to optimize the designed objective: they compress and sparsify representations of large-scale real-world vision datasets such as ImageNet, and achieve performance very close to thoroughly engineered transformers such as ViT.</strong>
+</div>
+<br><br><br>
+
+<div class="block" style="margin: 0;">
+    <div class="navigator"></div>
+</div>
+<br><br><br>
+
+<!-- ####################### -->
+
+
+<!-- ########## Miniamlistic white-box ########## -->
+
+<div style="padding-left: 15%; padding-right: 15%;">
+    <strong style="color: black; font-size: 2.5vw;">Emergence of Segmentation with Minimalistic White-Box Transformers</strong>
+    <table width="100%" cellspacing='0'>
+        <tbody>
+            <tr style="width: 100%;">
+                <td width="80%">
+                    <div>
+                        <img src="./files/white-box/2.png" width="100%">
+                        <!-- <h2>Image / Video 1, see RoboTwin.</h2> -->
+                        <img src="./files/white-box/3.png" width="100%">
+                    </div>
+                </td>                
+            </tr>   
+        </tbody>
+    </table>
+    <div style="height: 20px;"></div>
+    <strong style="color: black; font-size: 1.5vw;">Yaodong Yu, Tianzhe Chu, Shengbang Tong, Ziyang Wu, Druv Pai, Sam Buchanan, Yi Ma</strong> 
+    <div style="height: 20px;"></div>
+    <strong style="color: black; font-size: 1.5vw;"><i>Conference on Parsimony and Learning (CPAL) 2024</i></strong>
+    <div style="height: 20px;"></div>
+    <strong style="color: black; font-size: 1.5vw;"><a href="https://arxiv.org/abs/2308.16271" target="_blank" style="color: blue;">Paper</a> / <a href="https://arxiv.org/abs/2308.16271" target="_blank" style="color: blue;">arXiv</a> / <a href="https://github.com/Ma-Lab-Berkeley/CRATE" target="_blank" style="color: blue;">Code</a></strong>
+    <div style="height: 20px;"></div>
+    <strong style="color: gray; font-size: 1.2vw;">Transformer-like models for vision tasks have recently proven effective for a wide range of downstream applications such as segmentation and detection. Previous works have shown that segmentation properties emerge in vision transformers (ViTs) trained using self-supervised methods such as DINO, but not in those trained on supervised classification tasks. In this study, we probe whether segmentation emerges in transformer-based models solely as a result of intricate self-supervised learning mechanisms, or if the same emergence can be achieved under much broader conditions through proper design of the model architecture. Through extensive experimental results, we demonstrate that when employing a white-box transformer-like architecture known as CRATE, whose design explicitly models and pursues low-dimensional structures in the data distribution, segmentation properties, at both the whole and parts levels, already emerge with a minimalistic supervised training recipe. Layer-wise finer-grained analysis reveals that the emergent properties strongly corroborate the designed mathematical functions of the white-box network. Our results suggest a path to design white-box foundation models that are simultaneously highly performant and mathematically fully interpretable.</strong>
+</div>
+<br><br><br>
+
+<div class="block" style="margin: 0;">
+    <div class="navigator"></div>
+</div>
+<br><br><br>
+
+<!-- ####################### -->
+
+<!-- ########## Masked White-Box ########## -->
+
+<div style="padding-left: 15%; padding-right: 15%;">
+    <strong style="color: black; font-size: 2.5vw;">Masked Completion via Structured Diffusion with White-Box Transformers</strong>
+    <table width="100%" cellspacing='0'>
+        <tbody>
+            <tr style="width: 100%;">
+                <td width="80%">
+                    <div>
+                        <img src="./files/white-box/4.png" width="100%">
+                        <!-- <h2>Image / Video 1, see RoboTwin.</h2> -->
+                    </div>
+                </td>                
+            </tr>   
+        </tbody>
+    </table>
+    <div style="height: 20px;"></div>
+    <strong style="color: black; font-size: 1.5vw;">Druv Pai, Ziyang Wu, Sam Buchanan, Yaodong Yu, Yi Ma</strong> 
+    <div style="height: 20px;"></div>
+    <strong style="color: black; font-size: 1.5vw;"><i>International Conference on Learning Representation (ICLR) 2024</i></strong>
+    <div style="height: 20px;"></div>
+    <strong style="color: black; font-size: 1.5vw;"><a href="https://arxiv.org/abs/2404.02446" target="_blank" style="color: blue;">Paper</a> / <a href="https://arxiv.org/abs/2404.02446" target="_blank" style="color: blue;">arXiv</a> / <a href="https://github.com/Ma-Lab-Berkeley/CRATE" target="_blank" style="color: blue;">Code</a></strong>
+    <div style="height: 20px;"></div>
+    <strong style="color: gray; font-size: 1.2vw;">Modern learning frameworks often train deep neural networks with massive amounts of unlabeled data to learn representations by solving simple pretext tasks, then use the representations as foundations for downstream tasks. These networks are empirically designed; as such, they are usually not interpretable, their representations are not structured, and their designs are potentially redundant. White-box deep networks, in which each layer explicitly identifies and transforms structures in the data, present a promising alternative. However, existing white-box architectures have only been shown to work at scale in supervised settings with labeled data, such as classification. In this work, we provide the first instantiation of the white-box design paradigm that can be applied to large-scale unsupervised representation learning. We do this by exploiting a fundamental connection between diffusion, compression, and (masked) completion, deriving a deep transformer-like masked autoencoder architecture, called CRATE-MAE, in which the role of each layer is mathematically fully interpretable: they transform the data distribution to and from a structured representation. Extensive empirical evaluations confirm our analytical insights. CRATE-MAE demonstrates highly promising performance on large-scale imagery datasets while using only ~30% of the parameters compared to the standard masked autoencoder with the same model configuration. The representations learned by CRATE-MAE have explicit structure and also contain semantic meaning.</strong>
+</div>
+<br><br><br>
+
+<div class="block" style="margin: 0;">
+    <div class="navigator"></div>
+</div>
+<br><br><br>
+
+<!-- ####################### -->
+
 <!-- ########## RoboTwin ########## -->
 <div id="" style="padding-left: 15%; padding-right: 15%;">
     <strong style="color: black; font-size: 2.5vw;">RoboTwin: Dual-Arm Robot Benchmark with Generative Digital Twins</strong>
@@ -93,7 +197,7 @@
         </tbody>
     </table>
     <div style="height: 20px;"></div>
-    <strong style="color: black; font-size: 1.5vw;">Yao Mu<sup>*</sup>, Tianxing Chen<sup>*</sup>, Zanxin Chen<sup>*</sup>, Shijia Peng<sup>*</sup>, Zeyu Gao, Zhixuan Liang, Qiaojun Yu, Yude Zou, Mingkun Xu, Lunkai Lin, Zhiqiang Xie, Mingyu Ding and Ping Luo<sup>†</sup></strong>
+    <strong style="color: black; font-size: 1.5vw;">Yao Mu<sup>*</sup>, Tianxing Chen<sup>*</sup>, Zanxin Chen<sup>*</sup>, Shijia Peng<sup>*</sup>, Zeyu Gao, Zhixuan Liang, Qiaojun Yu, Yude Zou, Mingkun Xu, Lunkai Lin, Zhiqiang Xie, Mingyu Ding and Ping Luo</strong>
     <div style="height: 20px;"></div>
     <strong style="color: black; font-size: 1.5vw;"><i>European Conference on Computer Vision (ECCV) 2024 Workshop, <a style="color: red;">Best Paper Award</a></i></strong>
     <div style="height: 20px;"></div>
@@ -132,7 +236,7 @@
         </tbody>
     </table>
     <div style="height: 20px;"></div>
-    <strong style="color: black; font-size: 1.5vw;">Maomao Li, Yu Li, Tianyu Yang, Yunfei Liu, Dongxu Yue, Zhihui Lin, Dong Xu<sup>†</sup></strong> 
+    <strong style="color: black; font-size: 1.5vw;">Maomao Li, Yu Li, Tianyu Yang, Yunfei Liu, Dongxu Yue, Zhihui Lin, Dong Xu</strong> 
     <div style="height: 20px;"></div>
     <strong style="color: black; font-size: 1.5vw;"><i>The Conference on Computer Vision and Pattern Recognition (CVPR) 2024</i></strong>
     <div style="height: 20px;"></div>
@@ -171,7 +275,7 @@
         </tbody>
     </table>
     <div style="height: 20px;"></div>
-    <strong style="color: black; font-size: 1.5vw;">Runjian Chen, Yao Mu, Runsen Xu, Wenqi Shao, Chenhan Jiang, Hang Xu, Zhenguo Li, Ping Luo<sup>†</sup></strong> 
+    <strong style="color: black; font-size: 1.5vw;">Runjian Chen, Yao Mu, Runsen Xu, Wenqi Shao, Chenhan Jiang, Hang Xu, Zhenguo Li, Ping Luo</strong> 
     <div style="height: 20px;"></div>
     <strong style="color: black; font-size: 1.5vw;"><i>International Conference on Learning Representation (ICLR) 2023</i></strong>
     <div style="height: 20px;"></div>
@@ -211,7 +315,7 @@
         </tbody>
     </table>
     <div style="height: 20px;"></div>
-    <strong style="color: black; font-size: 1.5vw;">Wenqi Shao<sup>*</sup>, Mengzhao Chen<sup>*</sup>, Zhaoyang Zhang, Peng Xu, Lirui Zhao, Zhiqian Li, Kaipeng Zhang, Peng Gao, Yu Qiao, Ping Luo<sup>†</sup></strong> 
+    <strong style="color: black; font-size: 1.5vw;">Wenqi Shao<sup>*</sup>, Mengzhao Chen<sup>*</sup>, Zhaoyang Zhang, Peng Xu, Lirui Zhao, Zhiqian Li, Kaipeng Zhang, Peng Gao, Yu Qiao, Ping Luo</strong> 
     <div style="height: 20px;"></div>
     <strong style="color: black; font-size: 1.5vw;"><i>International Conference on Learning Representation (ICLR) 2024, <a style="color: red">Spotlight</a></i></strong>
     <div style="height: 20px;"></div>
@@ -252,7 +356,7 @@
     <div style="height: 20px;"></div>
     <strong style="color: black; font-size: 1.5vw;">Qingwen Bu<sup>*</sup>, Jia Zeng<sup>*</sup>, Li Chen<sup>*</sup>, Yanchao Yang, Guyue Zhou, Junchi Yan, Ping Luo, Heming Cui, Yi Ma, Hongyang Li</strong> 
     <div style="height: 20px;"></div>
-    <strong style="color: black; font-size: 1.5vw;"><i>The Thirty-Eighth Annual Conference on Neural Information Processing Systems (NeurIPS 2024)</i></strong>
+    <strong style="color: black; font-size: 1.5vw;"><i>Conference on Neural Information Processing Systems (NeurIPS 2024)</i></strong>
     <div style="height: 20px;"></div>
     <strong style="color: black; font-size: 1.5vw;"><a href="https://arxiv.org/abs/2409.09016" target="_blank" style="color: blue;">arXiv</a> / <a href="https://github.com/OpenDriveLab/CLOVER" target="_blank" style="color: blue;">Code</a> </strong>
     <div style="height: 20px;"></div>
@@ -322,7 +426,7 @@
         </tbody>
     </table>
     <div style="height: 20px;"></div>
-    <strong style="color: black; font-size: 1.5vw;">Chonghao Sima<sup>*</sup>, Katrin Renz<sup>*</sup>, Kashyap Chitta, Li Chen, Hanxue Zhang, Chengen Xie, Jens Beißwenger, Ping Luo, Andreas Geiger<sup>†</sup>, Hongyang Li<sup>†</sup></strong> 
+    <strong style="color: black; font-size: 1.5vw;">Chonghao Sima<sup>*</sup>, Katrin Renz<sup>*</sup>, Kashyap Chitta, Li Chen, Hanxue Zhang, Chengen Xie, Jens Beißwenger, Ping Luo, Andreas Geiger, Hongyang Li</strong> 
     <div style="height: 20px;"></div>
     <strong style="color: black; font-size: 1.5vw;"><i>European Conference on Computer Vision (ECCV) 2024, <a style="color: red">Oral</a></i></strong>
     <div style="height: 20px;"></div>
